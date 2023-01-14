@@ -3,7 +3,7 @@
 amass enum -passive -d [exampledomain.com]
 
 ## https://github.com/projectdiscovery/subfinder
-subfinder -all -d $domain -silent
+subfinder -all -d [exampledomain.com] -silent
 
 # Active
 
