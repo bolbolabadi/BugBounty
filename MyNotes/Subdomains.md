@@ -13,4 +13,7 @@ python3 ctfr.py -d [exampledomain.com] -o [OUTPUT PATH]
 ## DNS Brute force
 
 ### https://github.com/projectdiscovery/dnsx
- dnsx -silent -d [exampledomain.com] -w [PATH TO SUBDOMAINS WORDLIST]
+dnsx -silent -d [exampledomain.com] -w [PATH TO SUBDOMAINS WORDLIST]
+
+### https://github.com/d3mondev/puredns
+``` puredns bruteforce [PATH TO SUBDOMAINS WORDLIST] [exampledomain.com] -r [PATH TO PUBLIC RESOLVERS FILE] ```
