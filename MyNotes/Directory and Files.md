@@ -1,4 +1,4 @@
-### Find critical backup files
+# Find critical backup files
 
-# https://fuzzuli.musana.net/
+### https://fuzzuli.musana.net/
 echo "[TARGET URL]" | fuzzuli -mt all
