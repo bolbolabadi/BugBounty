@@ -16,4 +16,4 @@ python3 ctfr.py -d [exampledomain.com] -o [OUTPUT PATH]
 dnsx -silent -d [exampledomain.com] -w [PATH TO SUBDOMAINS WORDLIST]
 
 ### https://github.com/d3mondev/puredns
-``` puredns bruteforce [PATH TO SUBDOMAINS WORDLIST] [exampledomain.com] -r [PATH TO PUBLIC RESOLVERS FILE] ```
+bash``` puredns bruteforce [PATH TO SUBDOMAINS WORDLIST] [exampledomain.com] -r [PATH TO PUBLIC RESOLVERS FILE] ```
