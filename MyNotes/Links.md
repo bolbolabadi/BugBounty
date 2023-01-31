@@ -4,4 +4,4 @@
 
 
 ### https://github.com/projectdiscovery/katana
-```katana -u "https://services.bdok.ir/" -d 5 -jc -aff -hl -silent -ef jpg,jpeg,gif,css,tif,tiff,png,ttf,woff,woff2,ico,pdf,svg,txt```
+```katana -u "[TARGET URL]" -d 5 -jc -aff -hl -silent -ef jpg,jpeg,gif,css,tif,tiff,png,ttf,woff,woff2,ico,pdf,svg,txt```
