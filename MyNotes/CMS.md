@@ -9,3 +9,7 @@ cat all-live-subs.txt | httpx -silent -H "User-Agent: Mozilla/5.0 (compatible; G
 ### Drupal
 cat all-live-subs.txt | httpx -silent -H "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" -mc 200,301,302 -match-regex "X-Generator: Drupal|sites/default/files|misc/drupal.js|user/login" -o all-drupal.txt -timeout 10
 
+### Magento
+cat all-live-subs.txt | httpx -silent -H "User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" -mc 200,301,302 -match-regex "X-Magento|skin/frontend|js/mage|/media/catalog/product" -o all-magento.txt -timeout 10
+
+
